@@ -1,0 +1,23 @@
+Symbol range map extraction starting
+Processing 7 files
+startProcessing "com\nehman\forge\minecraftx\ClientProxy.java" md5: fbf317e296e244fd116c16a61045ff09
+endProcessing "com\nehman\forge\minecraftx\ClientProxy.java"
+
+startProcessing "com\nehman\forge\minecraftx\CommonProxy.java" md5: 2447d720d922ffc054a4a74aafcce75e
+endProcessing "com\nehman\forge\minecraftx\CommonProxy.java"
+
+startProcessing "com\nehman\forge\minecraftx\Main.java" md5: 99802a369fa455775233499a2b73887a
+endProcessing "com\nehman\forge\minecraftx\Main.java"
+
+startProcessing "com\nehman\forge\minecraftx\ServerProxy.java" md5: 01e410c7483a1d227b3e089ab415489c
+endProcessing "com\nehman\forge\minecraftx\ServerProxy.java"
+
+startProcessing "com\nehman\forge\minecraftx\items\DeadBark.java" md5: fbf9305b2000ed441639b20840309e69
+endProcessing "com\nehman\forge\minecraftx\items\DeadBark.java"
+
+startProcessing "com\nehman\forge\minecraftx\items\XItems.java" md5: efef6804c5552c72faef42a5b95cee20
+endProcessing "com\nehman\forge\minecraftx\items\XItems.java"
+
+startProcessing "com\nehman\forge\minecraftx\renderers\ItemRenderRegister.java" md5: 005063283abbbb6b85ee13a31f9ba4ce
+endProcessing "com\nehman\forge\minecraftx\renderers\ItemRenderRegister.java"
+

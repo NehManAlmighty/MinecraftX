@@ -1,0 +1,223 @@
+Symbol range map extraction starting
+Processing 7 files
+startProcessing "com\nehman\forge\minecraftx\ClientProxy.java" md5: fbf317e296e244fd116c16a61045ff09
+@|com\nehman\forge\minecraftx\ClientProxy.java|8|35|com.nehman.forge.minecraftx|package|com.nehman.forge.minecraftx|(file)
+Class Start: com.nehman.forge.minecraftx.ClientProxy
+   @|com\nehman\forge\minecraftx\ClientProxy.java|309|320|ClientProxy|class|com.nehman.forge.minecraftx.ClientProxy
+   @|com\nehman\forge\minecraftx\ClientProxy.java|329|340|CommonProxy|class|com.nehman.forge.minecraftx.CommonProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\ClientProxy.java|401|402|e|param|com.nehman.forge.minecraftx.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|e|0
+      @|com\nehman\forge\minecraftx\ClientProxy.java|345|353|Override|class|java.lang.Override
+      @|com\nehman\forge\minecraftx\ClientProxy.java|367|374|preInit|method|com.nehman.forge.minecraftx.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\ClientProxy.java|375|400|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\nehman\forge\minecraftx\ClientProxy.java|414|421|preInit|method|com.nehman.forge.minecraftx.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\ClientProxy.java|422|423|e|param|com.nehman.forge.minecraftx.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|e|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\ClientProxy.java|482|483|e|param|com.nehman.forge.minecraftx.ClientProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|e|0
+      @|com\nehman\forge\minecraftx\ClientProxy.java|432|440|Override|class|java.lang.Override
+      @|com\nehman\forge\minecraftx\ClientProxy.java|454|458|init|method|com.nehman.forge.minecraftx.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\ClientProxy.java|459|481|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\nehman\forge\minecraftx\ClientProxy.java|495|499|init|method|com.nehman.forge.minecraftx.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\ClientProxy.java|500|501|e|param|com.nehman.forge.minecraftx.ClientProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|e|0
+      @|com\nehman\forge\minecraftx\ClientProxy.java|506|524|ItemRenderRegister|class|com.nehman.forge.minecraftx.renderers.ItemRenderRegister
+      @|com\nehman\forge\minecraftx\ClientProxy.java|525|542|registerRenderers|method|com.nehman.forge.minecraftx.renderers.ItemRenderRegister|registerRenderers|()V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\ClientProxy.java|610|611|e|param|com.nehman.forge.minecraftx.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|e|0
+      @|com\nehman\forge\minecraftx\ClientProxy.java|552|560|Override|class|java.lang.Override
+      @|com\nehman\forge\minecraftx\ClientProxy.java|574|582|postInit|method|com.nehman.forge.minecraftx.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\ClientProxy.java|583|609|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|com\nehman\forge\minecraftx\ClientProxy.java|623|631|postInit|method|com.nehman.forge.minecraftx.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\ClientProxy.java|632|633|e|param|com.nehman.forge.minecraftx.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|e|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : com.nehman.forge.minecraftx.ClientProxy
+endProcessing "com\nehman\forge\minecraftx\ClientProxy.java"
+
+startProcessing "com\nehman\forge\minecraftx\CommonProxy.java" md5: 2447d720d922ffc054a4a74aafcce75e
+@|com\nehman\forge\minecraftx\CommonProxy.java|8|35|com.nehman.forge.minecraftx|package|com.nehman.forge.minecraftx|(file)
+Class Start: com.nehman.forge.minecraftx.CommonProxy
+   @|com\nehman\forge\minecraftx\CommonProxy.java|310|321|CommonProxy|class|com.nehman.forge.minecraftx.CommonProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\CommonProxy.java|371|372|e|param|com.nehman.forge.minecraftx.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|e|0
+      @|com\nehman\forge\minecraftx\CommonProxy.java|337|344|preInit|method|com.nehman.forge.minecraftx.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\CommonProxy.java|345|370|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\nehman\forge\minecraftx\CommonProxy.java|378|384|XItems|class|com.nehman.forge.minecraftx.items.XItems
+      @|com\nehman\forge\minecraftx\CommonProxy.java|385|398|registerItems|method|com.nehman.forge.minecraftx.items.XItems|registerItems|()V
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\CommonProxy.java|453|454|e|param|com.nehman.forge.minecraftx.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|e|0
+      @|com\nehman\forge\minecraftx\CommonProxy.java|425|429|init|method|com.nehman.forge.minecraftx.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\CommonProxy.java|430|452|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\CommonProxy.java|518|519|e|param|com.nehman.forge.minecraftx.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|e|0
+      @|com\nehman\forge\minecraftx\CommonProxy.java|482|490|postInit|method|com.nehman.forge.minecraftx.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\CommonProxy.java|491|517|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : com.nehman.forge.minecraftx.CommonProxy
+endProcessing "com\nehman\forge\minecraftx\CommonProxy.java"
+
+startProcessing "com\nehman\forge\minecraftx\Main.java" md5: 99802a369fa455775233499a2b73887a
+@|com\nehman\forge\minecraftx\Main.java|8|35|com.nehman.forge.minecraftx|package|com.nehman.forge.minecraftx|(file)
+Class Start: com.nehman.forge.minecraftx.Main
+   @|com\nehman\forge\minecraftx\Main.java|445|448|Mod|class|net.minecraftforge.fml.common.Mod
+   @|com\nehman\forge\minecraftx\Main.java|449|454|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|com\nehman\forge\minecraftx\Main.java|457|461|Main|class|com.nehman.forge.minecraftx.Main
+   @|com\nehman\forge\minecraftx\Main.java|462|467|MODID|field|com.nehman.forge.minecraftx.Main|MODID
+   @|com\nehman\forge\minecraftx\Main.java|469|473|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|com\nehman\forge\minecraftx\Main.java|476|480|Main|class|com.nehman.forge.minecraftx.Main
+   @|com\nehman\forge\minecraftx\Main.java|481|488|MODNAME|field|com.nehman.forge.minecraftx.Main|MODNAME
+   @|com\nehman\forge\minecraftx\Main.java|490|497|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|com\nehman\forge\minecraftx\Main.java|500|504|Main|class|com.nehman.forge.minecraftx.Main
+   @|com\nehman\forge\minecraftx\Main.java|505|512|VERSION|field|com.nehman.forge.minecraftx.Main|VERSION
+   @|com\nehman\forge\minecraftx\Main.java|527|531|Main|class|com.nehman.forge.minecraftx.Main
+   @|com\nehman\forge\minecraftx\Main.java|555|561|String|class|java.lang.String
+   @|com\nehman\forge\minecraftx\Main.java|555|561|String|class|java.lang.String
+   @|com\nehman\forge\minecraftx\Main.java|562|567|MODID|field|com.nehman.forge.minecraftx.Main|MODID|
+   @|com\nehman\forge\minecraftx\Main.java|612|618|String|class|java.lang.String
+   @|com\nehman\forge\minecraftx\Main.java|612|618|String|class|java.lang.String
+   @|com\nehman\forge\minecraftx\Main.java|619|626|MODNAME|field|com.nehman.forge.minecraftx.Main|MODNAME|
+   @|com\nehman\forge\minecraftx\Main.java|672|678|String|class|java.lang.String
+   @|com\nehman\forge\minecraftx\Main.java|672|678|String|class|java.lang.String
+   @|com\nehman\forge\minecraftx\Main.java|679|686|VERSION|field|com.nehman.forge.minecraftx.Main|VERSION|
+   @|com\nehman\forge\minecraftx\Main.java|867|871|Main|class|com.nehman.forge.minecraftx.Main
+   @|com\nehman\forge\minecraftx\Main.java|708|718|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|com\nehman\forge\minecraftx\Main.java|719|729|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|com\nehman\forge\minecraftx\Main.java|777|787|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|com\nehman\forge\minecraftx\Main.java|840|848|Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|com\nehman\forge\minecraftx\Main.java|867|871|Main|class|com.nehman.forge.minecraftx.Main
+   @|com\nehman\forge\minecraftx\Main.java|872|880|instance|field|com.nehman.forge.minecraftx.Main|instance|
+   @|com\nehman\forge\minecraftx\Main.java|900|911|CommonProxy|class|com.nehman.forge.minecraftx.CommonProxy
+   @|com\nehman\forge\minecraftx\Main.java|900|911|CommonProxy|class|com.nehman.forge.minecraftx.CommonProxy
+   @|com\nehman\forge\minecraftx\Main.java|912|917|proxy|field|com.nehman.forge.minecraftx.Main|proxy|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\Main.java|988|989|e|param|com.nehman.forge.minecraftx.Main|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|e|0
+      @|com\nehman\forge\minecraftx\Main.java|925|937|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\nehman\forge\minecraftx\Main.java|954|961|preInit|method|com.nehman.forge.minecraftx.Main|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\Main.java|962|987|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\nehman\forge\minecraftx\Main.java|1003|1008|proxy|field|com.nehman.forge.minecraftx.Main|proxy
+      @|com\nehman\forge\minecraftx\Main.java|1009|1016|preInit|method|com.nehman.forge.minecraftx.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\Main.java|1017|1018|e|param|com.nehman.forge.minecraftx.Main|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|e|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\Main.java|1090|1091|e|param|com.nehman.forge.minecraftx.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|e|0
+      @|com\nehman\forge\minecraftx\Main.java|1033|1045|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\nehman\forge\minecraftx\Main.java|1062|1066|init|method|com.nehman.forge.minecraftx.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\Main.java|1067|1089|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\nehman\forge\minecraftx\Main.java|1105|1110|proxy|field|com.nehman.forge.minecraftx.Main|proxy
+      @|com\nehman\forge\minecraftx\Main.java|1111|1115|init|method|com.nehman.forge.minecraftx.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\Main.java|1116|1117|e|param|com.nehman.forge.minecraftx.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|e|0
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\Main.java|1197|1198|e|param|com.nehman.forge.minecraftx.Main|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|e|0
+      @|com\nehman\forge\minecraftx\Main.java|1132|1144|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\nehman\forge\minecraftx\Main.java|1161|1169|postInit|method|com.nehman.forge.minecraftx.Main|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\Main.java|1170|1196|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|com\nehman\forge\minecraftx\Main.java|1212|1217|proxy|field|com.nehman.forge.minecraftx.Main|proxy
+      @|com\nehman\forge\minecraftx\Main.java|1218|1226|postInit|method|com.nehman.forge.minecraftx.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\Main.java|1227|1228|e|param|com.nehman.forge.minecraftx.Main|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|e|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : com.nehman.forge.minecraftx.Main
+endProcessing "com\nehman\forge\minecraftx\Main.java"
+
+startProcessing "com\nehman\forge\minecraftx\ServerProxy.java" md5: 01e410c7483a1d227b3e089ab415489c
+@|com\nehman\forge\minecraftx\ServerProxy.java|8|35|com.nehman.forge.minecraftx|package|com.nehman.forge.minecraftx|(file)
+Class Start: com.nehman.forge.minecraftx.ServerProxy
+   @|com\nehman\forge\minecraftx\ServerProxy.java|260|271|ServerProxy|class|com.nehman.forge.minecraftx.ServerProxy
+   @|com\nehman\forge\minecraftx\ServerProxy.java|280|291|CommonProxy|class|com.nehman.forge.minecraftx.CommonProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\ServerProxy.java|352|353|e|param|com.nehman.forge.minecraftx.ServerProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|e|0
+      @|com\nehman\forge\minecraftx\ServerProxy.java|296|304|Override|class|java.lang.Override
+      @|com\nehman\forge\minecraftx\ServerProxy.java|318|325|preInit|method|com.nehman.forge.minecraftx.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\ServerProxy.java|326|351|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\nehman\forge\minecraftx\ServerProxy.java|365|372|preInit|method|com.nehman.forge.minecraftx.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\ServerProxy.java|373|374|e|param|com.nehman.forge.minecraftx.ServerProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|e|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\ServerProxy.java|433|434|e|param|com.nehman.forge.minecraftx.ServerProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|e|0
+      @|com\nehman\forge\minecraftx\ServerProxy.java|383|391|Override|class|java.lang.Override
+      @|com\nehman\forge\minecraftx\ServerProxy.java|405|409|init|method|com.nehman.forge.minecraftx.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\ServerProxy.java|410|432|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\nehman\forge\minecraftx\ServerProxy.java|446|450|init|method|com.nehman.forge.minecraftx.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\ServerProxy.java|451|452|e|param|com.nehman.forge.minecraftx.ServerProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|e|0
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\ServerProxy.java|519|520|e|param|com.nehman.forge.minecraftx.ServerProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|e|0
+      @|com\nehman\forge\minecraftx\ServerProxy.java|461|469|Override|class|java.lang.Override
+      @|com\nehman\forge\minecraftx\ServerProxy.java|483|491|postInit|method|com.nehman.forge.minecraftx.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\ServerProxy.java|492|518|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|com\nehman\forge\minecraftx\ServerProxy.java|532|540|postInit|method|com.nehman.forge.minecraftx.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\nehman\forge\minecraftx\ServerProxy.java|541|542|e|param|com.nehman.forge.minecraftx.ServerProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|e|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : com.nehman.forge.minecraftx.ServerProxy
+endProcessing "com\nehman\forge\minecraftx\ServerProxy.java"
+
+startProcessing "com\nehman\forge\minecraftx\items\DeadBark.java" md5: fbf9305b2000ed441639b20840309e69
+@|com\nehman\forge\minecraftx\items\DeadBark.java|8|41|com.nehman.forge.minecraftx.items|package|com.nehman.forge.minecraftx.items|(file)
+Class Start: com.nehman.forge.minecraftx.items.DeadBark
+   @|com\nehman\forge\minecraftx\items\DeadBark.java|137|145|DeadBark|class|com.nehman.forge.minecraftx.items.DeadBark
+   @|com\nehman\forge\minecraftx\items\DeadBark.java|154|158|Item|class|net.minecraft.item.Item
+   @|com\nehman\forge\minecraftx\items\DeadBark.java|176|182|String|class|java.lang.String
+   @|com\nehman\forge\minecraftx\items\DeadBark.java|176|182|String|class|java.lang.String
+   @|com\nehman\forge\minecraftx\items\DeadBark.java|183|198|unLocalizedName|field|com.nehman.forge.minecraftx.items.DeadBark|unLocalizedName|
+   Method Start: DeadBark()V
+      @|com\nehman\forge\minecraftx\items\DeadBark.java|224|232|DeadBark|method|com.nehman.forge.minecraftx.items.DeadBark|DeadBark|()V
+      @|com\nehman\forge\minecraftx\items\DeadBark.java|255|273|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|com\nehman\forge\minecraftx\items\DeadBark.java|274|289|unLocalizedName|field|com.nehman.forge.minecraftx.items.DeadBark|unLocalizedName
+      @|com\nehman\forge\minecraftx\items\DeadBark.java|299|313|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|com\nehman\forge\minecraftx\items\DeadBark.java|314|326|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|com\nehman\forge\minecraftx\items\DeadBark.java|327|334|BREWING|field|net.minecraft.creativetab.CreativeTabs|BREWING
+   Method End: DeadBark()V
+Class End  : com.nehman.forge.minecraftx.items.DeadBark
+endProcessing "com\nehman\forge\minecraftx\items\DeadBark.java"
+
+startProcessing "com\nehman\forge\minecraftx\items\XItems.java" md5: efef6804c5552c72faef42a5b95cee20
+@|com\nehman\forge\minecraftx\items\XItems.java|8|41|com.nehman.forge.minecraftx.items|package|com.nehman.forge.minecraftx.items|(file)
+Class Start: com.nehman.forge.minecraftx.items.XItems
+   @|com\nehman\forge\minecraftx\items\XItems.java|156|162|XItems|class|com.nehman.forge.minecraftx.items.XItems
+   @|com\nehman\forge\minecraftx\items\XItems.java|180|184|Item|class|net.minecraft.item.Item
+   @|com\nehman\forge\minecraftx\items\XItems.java|180|184|Item|class|net.minecraft.item.Item
+   @|com\nehman\forge\minecraftx\items\XItems.java|185|194|dead_bark|field|com.nehman.forge.minecraftx.items.XItems|dead_bark|
+   Method Start: registerItems()V
+      @|com\nehman\forge\minecraftx\items\XItems.java|218|231|registerItems|method|com.nehman.forge.minecraftx.items.XItems|registerItems|()V
+      @|com\nehman\forge\minecraftx\items\XItems.java|238|250|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com\nehman\forge\minecraftx\items\XItems.java|251|263|registerItem|method|net.minecraftforge.fml.common.registry.GameRegistry|registerItem|(Lnet/minecraft/item/Item;Ljava/lang/String;)V
+      @|com\nehman\forge\minecraftx\items\XItems.java|264|273|dead_bark|field|com.nehman.forge.minecraftx.items.XItems|dead_bark
+      @|com\nehman\forge\minecraftx\items\XItems.java|280|288|DeadBark|class|com.nehman.forge.minecraftx.items.DeadBark
+      @|com\nehman\forge\minecraftx\items\XItems.java|292|300|DeadBark|class|com.nehman.forge.minecraftx.items.DeadBark
+      @|com\nehman\forge\minecraftx\items\XItems.java|301|316|unLocalizedName|field|com.nehman.forge.minecraftx.items.DeadBark|unLocalizedName
+   Method End: registerItems()V
+Class End  : com.nehman.forge.minecraftx.items.XItems
+endProcessing "com\nehman\forge\minecraftx\items\XItems.java"
+
+startProcessing "com\nehman\forge\minecraftx\renderers\ItemRenderRegister.java" md5: 005063283abbbb6b85ee13a31f9ba4ce
+@|com\nehman\forge\minecraftx\renderers\ItemRenderRegister.java|8|45|com.nehman.forge.minecraftx.renderers|package|com.nehman.forge.minecraftx.renderers|(file)
+Class Start: com.nehman.forge.minecraftx.renderers.ItemRenderRegister
+   @|com\nehman\forge\minecraftx\renderers\ItemRenderRegister.java|302|320|ItemRenderRegister|class|com.nehman.forge.minecraftx.renderers.ItemRenderRegister
+   Method Start: registerRenderers()V
+      @|com\nehman\forge\minecraftx\renderers\ItemRenderRegister.java|343|360|registerRenderers|method|com.nehman.forge.minecraftx.renderers.ItemRenderRegister|registerRenderers|()V
+      @|com\nehman\forge\minecraftx\renderers\ItemRenderRegister.java|367|375|register|method|com.nehman.forge.minecraftx.renderers.ItemRenderRegister|register|(Lnet/minecraft/item/Item;)V
+      @|com\nehman\forge\minecraftx\renderers\ItemRenderRegister.java|376|382|XItems|class|com.nehman.forge.minecraftx.items.XItems
+      @|com\nehman\forge\minecraftx\renderers\ItemRenderRegister.java|383|392|dead_bark|field|com.nehman.forge.minecraftx.items.XItems|dead_bark
+   Method End: registerRenderers()V
+   Method Start: register(Lnet/minecraft/item/Item;)V
+      @|com\nehman\forge\minecraftx\renderers\ItemRenderRegister.java|435|439|item|param|com.nehman.forge.minecraftx.renderers.ItemRenderRegister|register|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\nehman\forge\minecraftx\renderers\ItemRenderRegister.java|421|429|register|method|com.nehman.forge.minecraftx.renderers.ItemRenderRegister|register|(Lnet/minecraft/item/Item;)V
+      @|com\nehman\forge\minecraftx\renderers\ItemRenderRegister.java|430|434|Item|class|net.minecraft.item.Item
+      @|com\nehman\forge\minecraftx\renderers\ItemRenderRegister.java|448|457|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\nehman\forge\minecraftx\renderers\ItemRenderRegister.java|458|470|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\nehman\forge\minecraftx\renderers\ItemRenderRegister.java|473|486|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
+      @|com\nehman\forge\minecraftx\renderers\ItemRenderRegister.java|489|507|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|com\nehman\forge\minecraftx\renderers\ItemRenderRegister.java|516|524|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|com\nehman\forge\minecraftx\renderers\ItemRenderRegister.java|525|529|item|param|com.nehman.forge.minecraftx.renderers.ItemRenderRegister|register|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\nehman\forge\minecraftx\renderers\ItemRenderRegister.java|538|559|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|com\nehman\forge\minecraftx\renderers\ItemRenderRegister.java|560|564|Main|class|com.nehman.forge.minecraftx.Main
+      @|com\nehman\forge\minecraftx\renderers\ItemRenderRegister.java|565|570|MODID|field|com.nehman.forge.minecraftx.Main|MODID
+      @|com\nehman\forge\minecraftx\renderers\ItemRenderRegister.java|579|583|item|param|com.nehman.forge.minecraftx.renderers.ItemRenderRegister|register|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\nehman\forge\minecraftx\renderers\ItemRenderRegister.java|584|602|getUnlocalizedName|method|net.minecraft.item.Item|getUnlocalizedName|()Ljava/lang/String;
+      @|com\nehman\forge\minecraftx\renderers\ItemRenderRegister.java|605|614|substring|method|java.lang.String|substring|(I)Ljava/lang/String;
+   Method End: register(Lnet/minecraft/item/Item;)V
+Class End  : com.nehman.forge.minecraftx.renderers.ItemRenderRegister
+endProcessing "com\nehman\forge\minecraftx\renderers\ItemRenderRegister.java"
+

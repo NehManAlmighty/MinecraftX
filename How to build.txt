@@ -1,0 +1,28 @@
+1. To compile and build the source code into a JAR file you firstly need to install gradle.
+just search in google. gradle's website will provide gradle in a ZIP file.
+extract it to C:\gradle. Then go to Control Panel\System and Security\System and click
+Advanced system settings. Click environment variables.
+
+2. Then under System Variables, click NEW...
+
+in the variable name, enter GRADLE_HOME
+in the variable value, enter C:\gradle
+
+click OK
+
+
+NOW LETS BUILD IT!!! :D
+
+Open command prompt (admin rights usually not needed)
+
+cd to the directory of the sources
+
+type in "C:\gradle\bin\gradle build" without the quotes
+
+now wait for the process to complete (may take 1-2 minutes, it took 50 seconds on my 1.65GHZ laptop.)
+
+once it says "BUILD COMPLETE", then the JAR file will be located in build\libs\MinecraftX-x.x.jar where x.x is the version number (You can edit the version number by opening the build.gradle file and editing these lines:
+
+version = "1.0"
+group= "com.nehman.forge.minecraftx"
+archivesBaseName = "MinecraftX"
