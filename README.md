@@ -1,2 +1,6 @@
 # MinecraftX
 Adds lots and lots of new features to Minecraft!
+## About
+This is my first Minecraft Forge mod and it's never fully complete. I plan to update it often so that when my mod becomes popular, it stays popular :) I never coded a mod before, only Bukkit/Spigot plugins xD. Compared to BoS (Bukkit or Spigot), Forge's API is a lot harder, and that is why you are allowed to contribute on my project (Planning for a reward system for contributers on GitHub).
+## How to contribute
+This project is written in Java (duh, it's a MC mod bruh), and is based on the Git version-control-system. For those who don't know, GitHub provides free hosting for Git (ok, it's just my interpretation of things), and supports pushing, pulling, and committing code (Like all Git hosting). I also made the code SUPER easy to understand to help Java newbies to contribute. For example, all the packages are properly named, classes and so. And before you contribute, I recommend to read _Bedrock_Miner_'s tutorial on forge modding. You don't necessarily need to create your own mod. Just read the tutorial so that you get a basic understanding of how my mod works. For novices and experts at Java, the Main class is located in the package com.nehman.forge.minecraftx (SEE, PACKAGE NAMES ARE SIMPLE).
