@@ -26,3 +26,19 @@ Going to the MinecraftX folder again. Open a command prompt there. Type in 'grad
 In the build.gradle file, edit the line that says:
 ###### version = "LOL_ANY_RANDOM_VERSION_NUMBER_HERE"
 And then rebuild the mod by running "gradle build" while on the root directory of the mod's sources.
+
+### To make this mod support another version of Minecraft
+NOTE: Do not try this method for Minecraft 1.7.9 or lower. To do this, you need to edit the code a bit because Minecraft 1.7.9 and down uses different codes. Try at own risk.
+Download the Forge MDK for the version you are trying to support. Then extract it to a folder named "Forge". Copy MinecraftX's sources into a folder named "MinecraftX" and move it next to the Forge folder. Then go to the MinecraftX folder and delete the build.gradle file. Now go to the Forge folder and copy the build.gradle file there to MinecraftX folder again. Now open the build.gradle file you just copied (It should be on MinecraftX folder by now) and replace:
+
+###### version = "1.0"
+###### group= "com.yourname.modid"
+###### archivesBaseName = "modid"
+
+with this:
+
+###### version = "1.0"
+###### group= "com.nehman.forge.minecraftx"
+###### archivesBaseName = "MinecraftX"
+
+Now go to the Forge folder again and open a command prompt there. Type in "gradlew setupDecompWorkspace" and then "gradlew eclipse". Now copy the .classpath file from the Forge folder and place it in MinecraftX folder (Yes, replace it).
