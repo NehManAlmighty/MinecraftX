@@ -17,4 +17,12 @@ And after that type in:
 
 ###### gradlew.bat eclipse
 
-Then download the source code for my mod and extract it to a folder named MinecraftX. Move the folder so that it is next to the Forge folder (NOT INSIDE IT!!). Then put both folders inside another folder named workspace. Open up Eclipse and set it's workspace to the 'workspace' folder we created. Then click File > Import and choose the root directory as the MinecraftX folder. Repeat the step for the Forge folder too. Now you should see 2 projects in your eclipse workspace (Forge and MinecraftX). Don't worry if there are errors now. Right-Click MinecraftX and click Build Path > Configure Build Path. Click the Build Paths TAB and add the Forge project to it. Now minimize eclipse and go to the MinecraftX folder again. Delete the file named '.classpath'. Now go to the forge folder and copy the '.classpath' file to the eclipse folder. Now all the Referenced Libraries errors should be fixed. Now edit the code at will, and just build the mod using 
+Then download the source code for my mod and extract it to a folder named MinecraftX. Move the folder so that it is next to the Forge folder (NOT INSIDE IT!!). Then put both folders inside another folder named workspace. Open up Eclipse and set it's workspace to the 'workspace' folder we created. Then click File > Import and choose the root directory as the MinecraftX folder. Repeat the step for the Forge folder too. Now you should see 2 projects in your eclipse workspace (Forge and MinecraftX). Don't worry if there are errors now. Right-Click MinecraftX and click Build Path > Configure Build Path. Click the Build Paths TAB and add the Forge project to it. Now minimize eclipse and go to the MinecraftX folder again. Delete the file named '.classpath'. Now go to the forge folder and copy the '.classpath' file to the eclipse folder. Now all the Referenced Libraries errors should be fixed. Now edit the code at will, and just build the mod by:
+
+Going to the MinecraftX folder again. Open a command prompt there. Type in 'gradle build' and wait for the process to complete. Once finished, the compiled JAR file can be found in bin\libs folder as well as the sources JAR file.
+
+## Some useful text
+### To change the version of the mod
+In the build.gradle file, edit the line that says:
+###### version = "LOL_ANY_RANDOM_VERSION_NUMBER_HERE"
+And then rebuild the mod by running "gradle build" while on the root directory of the mod's sources.
